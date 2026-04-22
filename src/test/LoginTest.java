@@ -34,6 +34,8 @@ public class LoginTest extends Main{
 		String errorMessage = loginPage.valiadteLoginErrorMessage();
 		System.out.println(errorMessage);
 		System.out.println("errorMessage2");
+		System.out.println("errorMessage3");
+		
 		Assert.assertEquals(errorMessage, 
 				"The email address or mobile number you entered isn't connected to an account. Find your account and log in.",
 				"test_2");
